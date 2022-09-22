@@ -1,0 +1,74 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 550px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #111827;
+    background: #FFFDFE;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+/*HEADER*/
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    border: 1px solid #E5E5E5;
+    background: #E5E5E5;  
+}
+
+#color-picker{
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB; 
+    box-sizing: border-box;
+    width: 61px;
+    height: 42px;
+    padding: .1em;   
+}
+
+/*menu*/
+
+.select-menu{
+    width: 312px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    line-height: 24px;
+    padding: .5em; 
+}
+
+#btn{
+    border: 1px solid #D1D5DB;
+    background: #fff;
+    border-radius: 4px;
+    width: 123px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+
+/*COLOR SECTION*/
+
+#color-section{
+    height: 550px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.color-stripe{
+    width: 110px;
+    border: 1px solid #E5E5E5;    
+}
+
+#color-name{
+    color: #fff;
+    padding-top: 14em;
+}

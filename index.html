@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Color Scheme Generator 🍭 </h1>
+        <header>
+            <input type ='color'id='color-picker'/>
+            <div id='menu'>
+                <select class='select-menu'>
+                    <option id='monochrome' value='monochrome'>Monochrome</option>
+                    <option id='mono-dark' value='monochrome-dark'>Monochrome-dark</option>
+                    <option id='mono-light' value='monochrome-light'>Monochrome-light</option>
+                    <option id='analogic' value='analogic'>Analogic</option>
+                    <option id='complement' value='complement'>Complement</option>
+                    <option id= 'analogic-comp' value='analogic-complement'>Analogic-complement</option>
+                    <option id='triad' value='triad'>Triad</option>
+                </select>
+            </div>
+            <button id='btn'>Get color scheme</button>
+        </header>
+        <main>
+            <div id='color-section'></div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
